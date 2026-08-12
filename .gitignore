@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+
+# Secrets — never commit. See .env.example for the shape.
+.env
+.env.*
+!.env.example
+
+# Local reference database (the real app uses its own DB)
+*.sqlite
+*.sqlite-journal
+data/
